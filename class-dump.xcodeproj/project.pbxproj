@@ -89,7 +89,6 @@
 		0165B8B91827137D00CC647F /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 0165B8B71827137D00CC647F /* InfoPlist.strings */; };
 		0165B8C31827182000CC647F /* TestCDNameForCPUType.m in Sources */ = {isa = PBXBuildFile; fileRef = 011E484E1604DF3700722F8D /* TestCDNameForCPUType.m */; };
 		0165B8C41827184700CC647F /* libMachObjC.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 013D1F1113A5AE5A00BF0A67 /* libMachObjC.a */; };
-		0165B8C51827186600CC647F /* libcrypto.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 013D1F0B13A5ADC300BF0A67 /* libcrypto.dylib */; };
 		0165B8D81827198900CC647F /* TestBlockSignature.m in Sources */ = {isa = PBXBuildFile; fileRef = 0165B8C71827198900CC647F /* TestBlockSignature.m */; };
 		0165B8D91827198900CC647F /* TestCDArchFromName.m in Sources */ = {isa = PBXBuildFile; fileRef = 0165B8C91827198900CC647F /* TestCDArchFromName.m */; };
 		0165B8DA1827198900CC647F /* TestCDArchUses64BitABI.m in Sources */ = {isa = PBXBuildFile; fileRef = 0165B8CB1827198900CC647F /* TestCDArchUses64BitABI.m */; };
@@ -125,12 +124,10 @@
 		01B02D2913A5B4D70047BC53 /* CDMultiFileVisitor.m in Sources */ = {isa = PBXBuildFile; fileRef = 01EB82E213A591D8003EDE60 /* CDMultiFileVisitor.m */; };
 		01B02D2A13A5B4D70047BC53 /* CDTextClassDumpVisitor.m in Sources */ = {isa = PBXBuildFile; fileRef = 01EB830C13A591D8003EDE60 /* CDTextClassDumpVisitor.m */; };
 		01B02D2B13A5B4D70047BC53 /* CDSearchPathState.m in Sources */ = {isa = PBXBuildFile; fileRef = 01EB82FC13A591D8003EDE60 /* CDSearchPathState.m */; };
-		01B02D2C13A5B4FE0047BC53 /* libcrypto.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 013D1F0B13A5ADC300BF0A67 /* libcrypto.dylib */; };
-		01B02D2D13A5B57E0047BC53 /* libcrypto.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 013D1F0B13A5ADC300BF0A67 /* libcrypto.dylib */; };
-		01B02D3A13A5B72B0047BC53 /* libcrypto.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 013D1F0B13A5ADC300BF0A67 /* libcrypto.dylib */; };
 		01EB826413A590D9003EDE60 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 01EB826313A590D9003EDE60 /* Foundation.framework */; };
 		0D288C10187BC2EE0026E2A0 /* CDOCClassReference.h in Headers */ = {isa = PBXBuildFile; fileRef = 0D288C0E187BC2EE0026E2A0 /* CDOCClassReference.h */; };
 		0D288C11187BC2EE0026E2A0 /* CDOCClassReference.m in Sources */ = {isa = PBXBuildFile; fileRef = 0D288C0F187BC2EE0026E2A0 /* CDOCClassReference.m */; };
+		AA7AA2F91CEC849F000AA9F7 /* libcrypto.a in Frameworks */ = {isa = PBXBuildFile; fileRef = AA7AA2F71CEC849F000AA9F7 /* libcrypto.a */; };
 		C270B5C616C54AD6006CA75D /* ULEB128.m in Sources */ = {isa = PBXBuildFile; fileRef = C270B5C516C54AD5006CA75D /* ULEB128.m */; };
 		C270B5C816C54B0C006CA75D /* ULEB128.h in Headers */ = {isa = PBXBuildFile; fileRef = C270B5C716C54B0A006CA75D /* ULEB128.h */; };
 		DA7533B213AA587A003BE32C /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 01EB826313A590D9003EDE60 /* Foundation.framework */; };
@@ -232,9 +229,8 @@
 		011E48451604DF3700722F8D /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
 		011E48461604DF3700722F8D /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		011E484E1604DF3700722F8D /* TestCDNameForCPUType.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TestCDNameForCPUType.m; sourceTree = "<group>"; };
-		013D1EFB13A5A0F100BF0A67 /* deprotect */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = deprotect; sourceTree = BUILT_PRODUCTS_DIR; };
+		013D1EFB13A5A0F100BF0A67 /* deprotect.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = deprotect.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		013D1F0913A5A11100BF0A67 /* deprotect.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = deprotect.m; sourceTree = SOURCE_ROOT; };
-		013D1F0B13A5ADC300BF0A67 /* libcrypto.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libcrypto.dylib; path = usr/lib/libcrypto.dylib; sourceTree = SDKROOT; };
 		013D1F1113A5AE5A00BF0A67 /* libMachObjC.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libMachObjC.a; sourceTree = BUILT_PRODUCTS_DIR; };
 		0165B8B11827137D00CC647F /* UnitTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = UnitTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		0165B8B21827137D00CC647F /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
@@ -261,14 +257,14 @@
 		018BFD4114F65DB600190F07 /* CDExtensions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = CDExtensions.h; path = Source/CDExtensions.h; sourceTree = "<group>"; };
 		0194945A1673F8F100A29005 /* CDProtocolUniquer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = CDProtocolUniquer.h; path = Source/CDProtocolUniquer.h; sourceTree = "<group>"; };
 		0194945B1673F8F200A29005 /* CDProtocolUniquer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = CDProtocolUniquer.m; path = Source/CDProtocolUniquer.m; sourceTree = "<group>"; };
-		01B02CFF13A5B0DC0047BC53 /* formatType */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = formatType; sourceTree = BUILT_PRODUCTS_DIR; };
+		01B02CFF13A5B0DC0047BC53 /* formatType.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = formatType.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		01B02D0D13A5B0FB0047BC53 /* formatType.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = formatType.m; sourceTree = SOURCE_ROOT; };
 		01B02D0F13A5B1220047BC53 /* formatType-Prefix.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "formatType-Prefix.pch"; sourceTree = SOURCE_ROOT; };
 		01B02D1013A5B1460047BC53 /* class-dump.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "class-dump.m"; sourceTree = SOURCE_ROOT; };
 		01B02D1213A5B16E0047BC53 /* deprotect-Prefix.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "deprotect-Prefix.pch"; sourceTree = SOURCE_ROOT; };
 		01B02D1B13A5B2A40047BC53 /* class-dump-Prefix.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "class-dump-Prefix.pch"; sourceTree = SOURCE_ROOT; };
 		01B02D4913A5B9090047BC53 /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = SOURCE_ROOT; };
-		01EB825F13A590D9003EDE60 /* class-dump */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "class-dump"; sourceTree = BUILT_PRODUCTS_DIR; };
+		01EB825F13A590D9003EDE60 /* class-dump.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "class-dump.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		01EB826313A590D9003EDE60 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		01EB828213A5916D003EDE60 /* MachObjC-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "MachObjC-Prefix.pch"; sourceTree = "<group>"; };
 		01EB828713A591A5003EDE60 /* NSArray-CDExtensions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "NSArray-CDExtensions.h"; path = "Source/NSArray-CDExtensions.h"; sourceTree = SOURCE_ROOT; };
@@ -411,6 +407,8 @@
 		01EB832013A591D8003EDE60 /* CDVisitorPropertyState.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = CDVisitorPropertyState.m; path = Source/CDVisitorPropertyState.m; sourceTree = SOURCE_ROOT; };
 		0D288C0E187BC2EE0026E2A0 /* CDOCClassReference.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = CDOCClassReference.h; path = Source/CDOCClassReference.h; sourceTree = "<group>"; };
 		0D288C0F187BC2EE0026E2A0 /* CDOCClassReference.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = CDOCClassReference.m; path = Source/CDOCClassReference.m; sourceTree = "<group>"; };
+		AA7AA2F71CEC849F000AA9F7 /* libcrypto.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libcrypto.a; path = "../ios-openssl/lib/libcrypto.a"; sourceTree = "<group>"; };
+		AA7AA2F81CEC849F000AA9F7 /* libssl.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libssl.a; path = "../ios-openssl/lib/libssl.a"; sourceTree = "<group>"; };
 		C270B5C516C54AD5006CA75D /* ULEB128.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = ULEB128.m; path = Source/ULEB128.m; sourceTree = "<group>"; };
 		C270B5C716C54B0A006CA75D /* ULEB128.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ULEB128.h; path = Source/ULEB128.h; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -420,7 +418,6 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				01B02D2D13A5B57E0047BC53 /* libcrypto.dylib in Frameworks */,
 				013D1F5613A5AF1E00BF0A67 /* libMachObjC.a in Frameworks */,
 				013D1EFD13A5A0F100BF0A67 /* Foundation.framework in Frameworks */,
 			);
@@ -438,7 +435,6 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				0165B8C51827186600CC647F /* libcrypto.dylib in Frameworks */,
 				0165B8C41827184700CC647F /* libMachObjC.a in Frameworks */,
 				0165B8B31827137D00CC647F /* XCTest.framework in Frameworks */,
 			);
@@ -448,7 +444,6 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				01B02D3A13A5B72B0047BC53 /* libcrypto.dylib in Frameworks */,
 				01B02D1313A5B1CE0047BC53 /* libMachObjC.a in Frameworks */,
 				01B02D0113A5B0DC0047BC53 /* Foundation.framework in Frameworks */,
 			);
@@ -458,7 +453,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				01B02D2C13A5B4FE0047BC53 /* libcrypto.dylib in Frameworks */,
+				AA7AA2F91CEC849F000AA9F7 /* libcrypto.a in Frameworks */,
 				013D1F5A13A5AF6500BF0A67 /* libMachObjC.a in Frameworks */,
 				01EB826413A590D9003EDE60 /* Foundation.framework in Frameworks */,
 			);
@@ -596,10 +591,10 @@
 		01EB826013A590D9003EDE60 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				01EB825F13A590D9003EDE60 /* class-dump */,
-				013D1EFB13A5A0F100BF0A67 /* deprotect */,
+				01EB825F13A590D9003EDE60 /* class-dump.app */,
+				013D1EFB13A5A0F100BF0A67 /* deprotect.app */,
 				013D1F1113A5AE5A00BF0A67 /* libMachObjC.a */,
-				01B02CFF13A5B0DC0047BC53 /* formatType */,
+				01B02CFF13A5B0DC0047BC53 /* formatType.app */,
 				0165B8B11827137D00CC647F /* UnitTests.xctest */,
 			);
 			name = Products;
@@ -608,8 +603,9 @@
 		01EB826213A590D9003EDE60 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				AA7AA2F71CEC849F000AA9F7 /* libcrypto.a */,
+				AA7AA2F81CEC849F000AA9F7 /* libssl.a */,
 				01EB826313A590D9003EDE60 /* Foundation.framework */,
-				013D1F0B13A5ADC300BF0A67 /* libcrypto.dylib */,
 				011E483F1604DF3700722F8D /* SenTestingKit.framework */,
 				011E48411604DF3700722F8D /* Cocoa.framework */,
 				0165B8B21827137D00CC647F /* XCTest.framework */,
@@ -852,8 +848,8 @@
 			);
 			name = deprotect;
 			productName = deprotect;
-			productReference = 013D1EFB13A5A0F100BF0A67 /* deprotect */;
-			productType = "com.apple.product-type.tool";
+			productReference = 013D1EFB13A5A0F100BF0A67 /* deprotect.app */;
+			productType = "com.apple.product-type.application";
 		};
 		013D1F1013A5AE5A00BF0A67 /* MachObjC */ = {
 			isa = PBXNativeTarget;
@@ -905,8 +901,8 @@
 			);
 			name = formatType;
 			productName = formatType;
-			productReference = 01B02CFF13A5B0DC0047BC53 /* formatType */;
-			productType = "com.apple.product-type.tool";
+			productReference = 01B02CFF13A5B0DC0047BC53 /* formatType.app */;
+			productType = "com.apple.product-type.application";
 		};
 		01EB825E13A590D9003EDE60 /* class-dump */ = {
 			isa = PBXNativeTarget;
@@ -923,8 +919,8 @@
 			);
 			name = "class-dump";
 			productName = "class-dump";
-			productReference = 01EB825F13A590D9003EDE60 /* class-dump */;
-			productType = "com.apple.product-type.tool";
+			productReference = 01EB825F13A590D9003EDE60 /* class-dump.app */;
+			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
 
@@ -932,7 +928,11 @@
 		01EB825613A590D9003EDE60 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
-				LastUpgradeCheck = 0510;
+				LastUpgradeCheck = 0640;
+				TargetAttributes = {
+					01EB825E13A590D9003EDE60 = {
+					};
+				};
 			};
 			buildConfigurationList = 01EB825913A590D9003EDE60 /* Build configuration list for PBXProject "class-dump" */;
 			compatibilityVersion = "Xcode 3.2";
@@ -1152,6 +1152,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				CLANG_ENABLE_OBJC_ARC = YES;
+				CODE_SIGN_IDENTITY = "";
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "deprotect-Prefix.pch";
 				OTHER_LDFLAGS = (
@@ -1166,6 +1167,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				CLANG_ENABLE_OBJC_ARC = YES;
+				CODE_SIGN_IDENTITY = "";
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "deprotect-Prefix.pch";
 				OTHER_LDFLAGS = (
@@ -1179,22 +1181,34 @@
 		013D1F1713A5AE5A00BF0A67 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD)";
 				CLANG_ENABLE_OBJC_ARC = YES;
+				CODE_SIGN_IDENTITY = "";
 				COMBINE_HIDPI_IMAGES = YES;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "MachObjC-Prefix.pch";
+				HEADER_SEARCH_PATHS = "$(SDKROOT)/usr/include";
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				LIBRARY_SEARCH_PATHS = "$(PROJECT_DIR)/ios-openssl/lib";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				USER_HEADER_SEARCH_PATHS = "";
 			};
 			name = Debug;
 		};
 		013D1F1813A5AE5A00BF0A67 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD)";
 				CLANG_ENABLE_OBJC_ARC = YES;
+				CODE_SIGN_IDENTITY = "";
 				COMBINE_HIDPI_IMAGES = YES;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "MachObjC-Prefix.pch";
+				HEADER_SEARCH_PATHS = "$(SDKROOT)/usr/include";
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				LIBRARY_SEARCH_PATHS = "$(PROJECT_DIR)/ios-openssl/lib";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				USER_HEADER_SEARCH_PATHS = "";
 			};
 			name = Release;
 		};
@@ -1267,6 +1281,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				CLANG_ENABLE_OBJC_ARC = YES;
+				CODE_SIGN_IDENTITY = "";
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "formatType-Prefix.pch";
 				OTHER_LDFLAGS = (
@@ -1281,6 +1296,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				CLANG_ENABLE_OBJC_ARC = YES;
+				CODE_SIGN_IDENTITY = "";
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "formatType-Prefix.pch";
 				OTHER_LDFLAGS = (
@@ -1294,16 +1310,22 @@
 		01B02D3013A5B5D50047BC53 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = YES;
 				COMBINE_HIDPI_IMAGES = YES;
+				HEADER_SEARCH_PATHS = "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS.sdk/usr/include/**";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos9.3;
 			};
 			name = Debug;
 		};
 		01B02D3113A5B5D50047BC53 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = YES;
 				COMBINE_HIDPI_IMAGES = YES;
+				HEADER_SEARCH_PATHS = "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS.sdk/usr/include/**";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos9.3;
 			};
 			name = Release;
 		};
@@ -1339,7 +1361,7 @@
 				INSTALL_PATH = /;
 				MACOSX_DEPLOYMENT_TARGET = 10.8;
 				ONLY_ACTIVE_ARCH = YES;
-				SDKROOT = macosx;
+				SDKROOT = iphoneos9.3;
 				WARNING_CFLAGS = (
 					"-fdiagnostics-show-option",
 					"-Wno-semicolon-before-method-body",
@@ -1378,7 +1400,7 @@
 				GCC_WARN_UNUSED_VARIABLE = YES;
 				INSTALL_PATH = /;
 				MACOSX_DEPLOYMENT_TARGET = 10.8;
-				SDKROOT = macosx;
+				SDKROOT = iphoneos9.3;
 				WARNING_CFLAGS = (
 					"-fdiagnostics-show-option",
 					"-Wno-semicolon-before-method-body",
@@ -1395,23 +1417,40 @@
 		01EB826F13A590D9003EDE60 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = YES;
+				ARCHS = "$(ARCHS_STANDARD)";
 				CLANG_ENABLE_OBJC_ARC = YES;
+				ENABLE_BITCODE = NO;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "class-dump-Prefix.pch";
+				HEADER_SEARCH_PATHS = "";
+				INFOPLIST_FILE = "$(SRCROOT)/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				LIBRARY_SEARCH_PATHS = "$(PROJECT_DIR)/ios-openssl/lib";
 				OTHER_LDFLAGS = (
 					"-all_load",
 					"-ObjC",
 				);
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				USER_HEADER_SEARCH_PATHS = "$(SDKROOT)/usr/include";
 			};
 			name = Debug;
 		};
 		01EB827013A590D9003EDE60 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = YES;
+				ARCHS = "$(ARCHS_STANDARD)";
 				CLANG_ENABLE_OBJC_ARC = YES;
+				ENABLE_BITCODE = NO;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "class-dump-Prefix.pch";
+				HEADER_SEARCH_PATHS = "";
+				INFOPLIST_FILE = "$(SRCROOT)/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				LIBRARY_SEARCH_PATHS = "$(PROJECT_DIR)/ios-openssl/lib";
+				ONLY_ACTIVE_ARCH = NO;
 				OTHER_LDFLAGS = (
 					"-all_load",
 					"-ObjC",
@@ -1421,6 +1460,8 @@
 					Info.plist,
 				);
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				USER_HEADER_SEARCH_PATHS = "$(SDKROOT)/usr/include";
 			};
 			name = Release;
 		};
