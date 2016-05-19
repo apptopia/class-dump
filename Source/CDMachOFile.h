@@ -7,7 +7,6 @@
 
 #include <mach/machine.h> // For cpu_type_t, cpu_subtype_t
 #include <mach-o/loader.h>
-#include <mach/arm/vm_param.h>
 
 typedef enum : NSUInteger {
     CDByteOrder_LittleEndian = 0,

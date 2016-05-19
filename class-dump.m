@@ -4,7 +4,6 @@
 //  Copyright (C) 1997-1998, 2000-2001, 2004-2015 Steve Nygard.
 
 #include <stdio.h>
-//#include <libc.h>
 #include <unistd.h>
 #include <getopt.h>
 #include <stdlib.h>
