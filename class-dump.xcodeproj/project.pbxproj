@@ -928,11 +928,7 @@
 		01EB825613A590D9003EDE60 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
-				LastUpgradeCheck = 0640;
-				TargetAttributes = {
-					01EB825E13A590D9003EDE60 = {
-					};
-				};
+				LastUpgradeCheck = 0720;
 			};
 			buildConfigurationList = 01EB825913A590D9003EDE60 /* Build configuration list for PBXProject "class-dump" */;
 			compatibilityVersion = "Xcode 3.2";
@@ -1239,6 +1235,7 @@
 					"-all_load",
 					"-ObjC",
 				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.apptopia.class-dumpTests";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				WRAPPER_EXTENSION = xctest;
 			};
@@ -1272,6 +1269,7 @@
 					"___info_plist",
 					Info.plist,
 				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.apptopia.class-dumpTests";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				WRAPPER_EXTENSION = xctest;
 			};
@@ -1431,6 +1429,7 @@
 					"-all_load",
 					"-ObjC",
 				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.apptopia.class-dump";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SDKROOT = iphoneos;
 				USER_HEADER_SEARCH_PATHS = "$(SDKROOT)/usr/include";
@@ -1459,6 +1458,7 @@
 					"___info_plist",
 					Info.plist,
 				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.apptopia.class-dump";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SDKROOT = iphoneos;
 				USER_HEADER_SEARCH_PATHS = "$(SDKROOT)/usr/include";
