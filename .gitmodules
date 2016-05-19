@@ -1,3 +1,0 @@
-[submodule "ios-openssl"]
-	path = ios-openssl
-	url = git@github.com:azolotko/ios-openssl.git
