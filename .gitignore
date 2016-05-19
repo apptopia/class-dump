@@ -1,0 +1,5 @@
+# Mac OS X folder attributes
+.DS_Store
+
+# Xcode user-specific files
+xcuserdata/
