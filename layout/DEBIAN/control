@@ -1,0 +1,10 @@
+Package: com.apptopia.applepie.class-dump
+Name: ApplePie class-dump
+Depends: 
+Version: 1.0.0
+Architecture: iphoneos-arm
+Description: ApplePie class-dump (brief version of Steven Nygard's one)
+Maintainer: Sergei Epatov
+Author: Victor Gushek
+Section: System
+Tag: role::hacker
